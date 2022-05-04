@@ -2,8 +2,8 @@
 ### Extensible network framework library for federated learning system
 
 ```python
-from src.fedmlnetwork.device import Device
-from src.fedmlnetwork.paramServer import ParamServer
+from fl_network.device import Device
+from fl_network.paramServer import ParamServer
 
 if __name__ == '__main__':
     # setup()
