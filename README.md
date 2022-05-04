@@ -1,5 +1,8 @@
-# FedML Network
+<img title="" src="file:///F:/repos/fedml-network/icon.png" alt="icon.png" data-align="center" width="514">
+
 ### Extensible network framework for federated learning system
+
+
 
 ```python
 from fl_network.device import Device
@@ -16,6 +19,4 @@ if __name__ == '__main__':
                     args_from_ser=["weight", "grad"], args_from_peer=[])
 
     server = ParamServer(name="param_sys", devices=["dev_01", "dev_02"], args_from_dev=["weight", "grad"])
-
-
 ```
