@@ -1,4 +1,4 @@
-<img title="" src="file:///F:/repos/fedml-network/icon.png" alt="icon.png" data-align="center" width="514">
+<img title="" src="file:///F:/repos/fedml-network/icon.png" alt="icon.png" data-align="center" width="413">
 
 ### Extensible network framework for federated learning system
 
