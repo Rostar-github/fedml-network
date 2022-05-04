@@ -1,5 +1,5 @@
-
-### Extensible network framework library for federated learning system
+# FedML Network
+### Extensible network framework for federated learning system
 
 ```python
 from fl_network.device import Device
@@ -19,4 +19,3 @@ if __name__ == '__main__':
 
 
 ```
-
