@@ -7,7 +7,7 @@ setup(
     long_description_content_type="text/markdown",
     keywords=["FedML", "Redis", "Distribution"],
     license="MIT",
-    version="0.0.1",
+    version="1.0.1",
     url="https://github.com/Rostar-github/fedml-network",
     packages=find_packages(
         include=[

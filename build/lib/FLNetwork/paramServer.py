@@ -67,8 +67,9 @@ class ParamServer:
             if item["channel"].decode() == f"{arg}_from_dev:{dev}" and item["type"] == "message":
                 return pickle.loads(item["data"])
 
-    def set(self, arg, value):
-        self.__conn.set(arg, value)
+    def set(self, global_arg, value):
+        value = pickle.dumps(value)
+        self.__conn.set(global_arg, value)
 
-    def get(self, arg):
-        self.__conn.get(arg)
+    def get(self, global_arg):
+        return pickle.loads(self.__conn.get(global_arg))
